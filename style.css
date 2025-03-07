@@ -1,0 +1,44 @@
+body {
+  font-family: 'Robot', sans-serif;
+  background-image: url('https://media1.giphy.com/media/o3xQOiMLNgHUaRoRof/giphy.gif?cid=6c09b952ceinr6ifim1glop2liv88q4zqvd0vojhfl0a94s6&ep=v1_internal_gif_by_id&rid=giphy.gif&ct=g');
+  background-size: 200% 110%;
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  text-align: center;
+}
+
+img {
+  width: 3.8%;
+}
+
+ol {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: grid;
+  flex-direction: column;
+  align-items: center;
+  font-size: 2rem;
+  justify-content: center;
+  height: 16vh;
+  width: 100pvw;
+}
+
+li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  background-color: rgba(192, 192, 192, 0.5);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  margin-bottom: 20px;
+}
+
+.order-list-item-text {
+  font-size: 1.3rem;
+}
+span {
+  font-size: 1.5rem
+}
